@@ -1,0 +1,6 @@
+passos para linkagem de arquivo objeto 
+
+gcc -Wall -D GNU_SOURCE -g hello.c -o hello.o
+gcc hello.o -o hello
+./hello
+echo $?
